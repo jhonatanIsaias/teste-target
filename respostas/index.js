@@ -23,12 +23,10 @@ function questão2(numberQualquer) {
         fibonacci.push(soma);
     }
 
-    if (soma === numberQualquer) {
-        return `${numberQualquer} faz parte da sequencia`;
-    }
-    else{
-        return `${numberQualquer} não faz parte da sequencia`;
-    }
+return soma === numberQualquer ?  `${numberQualquer} faz parte da sequencia`: `${numberQualquer} não faz parte da sequencia`;
+
+        
+    
 }
 
 function questão3 (){
@@ -59,6 +57,6 @@ function questão5(minhaString){
 }
 
 
-
+console.log(questão2(6));
 
 
